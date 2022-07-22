@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /*Element Selector*/
+        
+        p {
+            border: 5px solid lightgrey;
+        }
+        /*Id Selector*/
+        
+        #firstPara {
+            color: lightcoral;
+            background-color: darkcyan;
+        }
+        /*Class Selector*/
+        
+        .bgBlue {
+            color: red;
+            background-color: lightskyblue;
+        }
+        /* Grouping Selectors*/
+        
+        footer,
+        span {
+            background-color: lightsalmon;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <h3>CSS Selectors</h3>
+    <!--only p is a element selector hai-->
+    <p id="firstPara">This is simple paragraphs to demostrate css selector</p>
+    <!--jb kisi ek line ko slect krna ho to "ID Selector ko chooes krenge, "-->
+    <p id="secondPara" class="redElement bgBlue">This is another one paragraphs to demostrate css selector</p>
+    <!--ek class multiple elemnts me bhi ja skti hai, or ek element me multiple class ho skti hai."-->
+    <p>This is another two paragraphs to demostrate css selector</p>
+    <div>
+        <p>This is another three paragraphs to demostrate css selector</p>
+        <span> this is span</span>
+    </div>
+    <footer>This is footer</footer>
+</body>
+
+</html>

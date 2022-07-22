@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Advance Selector in CSS</title>
+</head>
+<Style>
+    h1 {
+        background-color: cyan;
+        font-weight: bold;
+        text-align: center;
+        color: black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    /*Div ke sare P par apply hoga yeh 
+    /*div p {
+        color: tomato;
+        font-weight: bold;
+        background-color: turquoise; }*/
+    /*f P is contained by any li which is contained by div.
+    /*div li p {
+        color: tomato;
+        font-weight: bold;
+        background-color: turquoise;
+    }*/
+    /* If P is right inside div then this css will be appllied.
+    /*div>p {
+        Div ke li wale P par apply hoga yeh 
+        color: tomato;
+        font-weight: bold;
+        background-color: turquoise;
+    }
+    
+    /*If p is right after div li.e p is the next sibling of div.
+    div+p {
+        color: whitesmoke;
+        font-weight: bold;
+        background-color: red;
+    }*/
+</Style>
+
+<body>
+    <h1>This is more Advance Selector.</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item">
+                    <p>This is Another paragraph inside li</p>
+                </li>
+                <li>This is will not get affected</li>
+                <p>Thhis is a para inside ul</p>
+            </ul>
+            <p>This is Paragraph</p>
+        </div>
+        <p>This is another Paragrph</p>
+    </div>
+    <p>This is outermost paragraph</p>
+</body>
+
+</html>

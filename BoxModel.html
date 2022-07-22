@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: aquamarine;
+        }
+        
+        .container {
+            background-color: burlywood;
+            border: 3.5px solid rgb(72, 179, 221);
+            /* We can set margin/padding for top, bottom, left, and right like this.*/
+            /*padding-top: 80px;
+            padding-bottom: 80px;
+            padding-left: 80px;
+            padding-right: 80px; */
+            /*margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left: 5px;
+            margin-right: 5px;*/
+            /*padding: 20px 50px 10px 80px;
+            padding/margin: top right bottom left; */
+            padding: 20px 10px;
+            /*padding: y(top/bottom) x(left/right) ;*/
+            margin: 10px 34px;
+            border-radius: 20px;
+            width: 720px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>This is my Heading</h3>
+        <p id="first">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque optio dignissimos inventore quibusdam! Cupiditate, tempore deserunt. Incidunt nihil provident tenetur eum praesentium voluptas ea atque magnam totam! Facilis, dolorum nisi!
+        </p>
+    </div>
+
+    <div class="container">
+        <h3>This is my Heading</h3>
+        <p id="second">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque optio dignissimos inventore quibusdam! Cupiditate, tempore deserunt. Incidunt nihil provident tenetur eum praesentium voluptas ea atque magnam totam! Facilis, dolorum nisi!
+        </p>
+    </div>
+
+    <div class="container">
+        <h3>This is my Heading</h3>
+        <p id="third">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque optio dignissimos inventore quibusdam! Cupiditate, tempore deserunt. Incidunt nihil provident tenetur eum praesentium voluptas ea atque magnam totam! Facilis, dolorum nisi!
+        </p>
+    </div>
+</body>
+
+</html>

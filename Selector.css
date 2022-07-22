@@ -1,0 +1,14 @@
+#firstPara {
+    color: lightcoral;
+    background-color: darkcyan;
+}
+
+.bgBlue {
+    color: red;
+    background-color: lightskyblue;
+}
+
+footer,
+span {
+    background-color: lightsalmon;
+}
